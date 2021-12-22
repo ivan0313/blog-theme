@@ -30,7 +30,7 @@ nav ul {
 nav li {
     float: left;
     margin: 0px 30px;
-    position: relative; 
+    position: relative;
 }
 
 nav a {
@@ -42,11 +42,11 @@ nav a {
 }
 
 nav a:hover {
-    width: 100%; 
-    left: 0; 
+    width: 100%;
+    left: 0;
 }
 
-nav a:after {    
+nav a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -59,12 +59,220 @@ nav a:after {
     width: 0;
 }
 
-nav a:hover:after { 
-    width: 100%; 
-    left: 0; 
+nav a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
-
 .site-content {
-    margin: 10 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    margin-top: 97px;
+}
+
+.hero-introduction {
+    width: 475px;
+}
+
+.hero-introduction h1 {
+    font-size: 144px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    font-style: normal;
+    font-weight: bold;
+    margin: 62px 0;
+}
+
+.hero-introduction .iam {
+    height: 69px;
+	color: #999;
+}
+
+.hero-introduction .iam p {
+    float: left;
+}
+
+.hero-introduction .iam b {
+    float: left;
+	overflow: hidden;
+	position: relative;
+	height: 20px;
+	top: 16px;
+	left: 5px;
+}
+
+.hero-introduction .iam .innerIam {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    /*animation*/
+    -webkit-animation: move 5s;
+    -moz-animation: move 5s;
+    -ms-animation: move 5s;
+    -o-animation: move 5s;
+    animation: move 5s;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    /*animation-delay*/
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -17px;
+    }
+    40% {
+        top: -36px;
+    }
+    60% {
+        top: -56px;
+    }
+    80% {
+        top: -75px;
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -17px;
+    }
+    40% {
+        top: -36px;
+    }
+    60% {
+        top: -56px;
+    }
+    80% {
+        top: -75px;
+    }
+}
+
+@-moz-keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -17px;
+    }
+    40% {
+        top: -36px;
+    }
+    60% {
+        top: -56px;
+    }
+    80% {
+        top: -75px;
+    }
+}
+
+@-o-keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -17px;
+    }
+    40% {
+        top: -36px;
+    }
+    60% {
+        top: -56px;
+    }
+    80% {
+        top: -75px;
+    }
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -17px;
+    }
+    40% {
+        top: -36px;
+    }
+    60% {
+        top: -56px;
+    }
+    80% {
+        top: -75px;
+    }
+}
+
+.hero-introduction h2 {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.hero-introduction .detail-introduction {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+
+.avatar {
+    width: 579px;
+    height: 541px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.avatar .avatar-left {
+    position: absolute;
+    left: 3.45%;
+    right: 65.98%;
+    top: 3.14%;
+    bottom: 78.56%;
+    background: #598392;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.avatar .avatar-right {
+    position: absolute;
+    left: 64.98%;
+    right: 4.45%;
+    top: 14.91%;
+    bottom: 3.33%;
+    background: #598392;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: -1;
 }
