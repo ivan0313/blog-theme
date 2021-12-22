@@ -18,7 +18,7 @@ function my_custom_theme_sidebar() {
 add_action( 'widgets_init', 'my_custom_theme_sidebar' );
 
 function my_custom_theme_enqueue() {
-    wp_enqueue_style( 'ivan', get_stylesheet_uri() , array(), '20211222');
+    wp_enqueue_style( 'ivan', get_stylesheet_uri() );
     
 }
 add_action( 'wp_enqueue_scripts', 'my_custom_theme_enqueue' );
