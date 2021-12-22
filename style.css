@@ -17,23 +17,23 @@ html {
     color: #AEC3B0;
 }
 
-nav {
+.main-navigation div {
     display: flex;
     justify-content: center;
 }
 
-nav ul {
+.main-navigation ul {
     list-style-type: none;
     overflow: hidden;
 }
 
-nav li {
+.main-navigation li {
     float: left;
     margin: 0px 30px;
     position: relative; 
 }
 
-nav a {
+.main-navigation a {
     color: #AEC3B0;
     display: inline-block;
     text-transform: uppercase;
@@ -41,12 +41,12 @@ nav a {
     padding-bottom: 5px;
 }
 
-nav a:hover {
+.main-navigation a:hover {
     width: 100%; 
     left: 0; 
 }
 
-nav a:after {    
+.main-navigation a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -59,7 +59,7 @@ nav a:after {
     width: 0;
 }
 
-nav a:hover:after { 
+.main-navigation a:hover:after { 
     width: 100%; 
     left: 0; 
 }
