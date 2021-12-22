@@ -17,23 +17,23 @@ html {
     color: #AEC3B0;
 }
 
-.menu-main-menu-container {
+nav {
     display: flex;
     justify-content: center;
 }
 
-.menu-main-menu-container ul {
+nav ul {
     list-style-type: none;
     overflow: hidden;
 }
 
-.menu-main-menu-container li {
+nav li {
     float: left;
     margin: 0px 30px;
     position: relative; 
 }
 
-.menu-main-menu-container a {
+nav a {
     color: #AEC3B0;
     display: inline-block;
     text-transform: uppercase;
@@ -41,12 +41,12 @@ html {
     padding-bottom: 5px;
 }
 
-.menu-main-menu-container a:hover {
+nav a:hover {
     width: 100%; 
     left: 0; 
 }
 
-.menu-main-menu-container a:after {    
+nav a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -59,7 +59,7 @@ html {
     width: 0;
 }
 
-.menu-main-menu-container a:hover:after { 
+nav a:hover:after { 
     width: 100%; 
     left: 0; 
 }
