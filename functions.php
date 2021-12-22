@@ -50,7 +50,7 @@ function my_custom_theme_sidebar() {
 add_action( 'widgets_init', 'my_custom_theme_sidebar' );
 
 function my_custom_theme_enqueue() {
-    wp_enqueue_style( 'ivan', get_stylesheet_uri() , array(), '1.0.2' );
+    wp_enqueue_style( 'ivan', get_stylesheet_uri() , array(), '1.0.3' );
 
     $font_url = ivan_get_font_url();
 	if ( ! empty( $font_url ) ) {

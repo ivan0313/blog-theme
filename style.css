@@ -4,7 +4,7 @@ Theme URI: https://ivan0313.tk/theme
 Author: Your Name
 Author URI: https://ivan0313.tk
 Description: Theme for Ivan's wordpress blog
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
 */
@@ -102,7 +102,7 @@ nav a:hover:after {
 	overflow: hidden;
 	position: relative;
 	height: 20px;
-	top: 16px;
+	top: 17.5px;
 	left: 5px;
 }
 
@@ -138,16 +138,16 @@ nav a:hover:after {
         top: 0px;
     }
     20% {
-        top: -17px;
+        top: -20px;
     }
     40% {
-        top: -36px;
+        top: -40px;
     }
     60% {
-        top: -56px;
+        top: -60px;
     }
     80% {
-        top: -75px;
+        top: -80px;
     }
 }
 
@@ -156,16 +156,16 @@ nav a:hover:after {
         top: 0px;
     }
     20% {
-        top: -17px;
+        top: -20px;
     }
     40% {
-        top: -36px;
+        top: -40px;
     }
     60% {
-        top: -56px;
+        top: -60px;
     }
     80% {
-        top: -75px;
+        top: -80px;
     }
 }
 
@@ -174,16 +174,16 @@ nav a:hover:after {
         top: 0px;
     }
     20% {
-        top: -17px;
+        top: -20px;
     }
     40% {
-        top: -36px;
+        top: -40px;
     }
     60% {
-        top: -56px;
+        top: -60px;
     }
     80% {
-        top: -75px;
+        top: -80px;
     }
 }
 
@@ -192,16 +192,16 @@ nav a:hover:after {
         top: 0px;
     }
     20% {
-        top: -17px;
+        top: -20px;
     }
     40% {
-        top: -36px;
+        top: -40px;
     }
     60% {
-        top: -56px;
+        top: -60px;
     }
     80% {
-        top: -75px;
+        top: -80px;
     }
 }
 
@@ -210,16 +210,16 @@ nav a:hover:after {
         top: 0px;
     }
     20% {
-        top: -17px;
+        top: -20px;
     }
     40% {
-        top: -36px;
+        top: -40px;
     }
     60% {
-        top: -56px;
+        top: -60px;
     }
     80% {
-        top: -75px;
+        top: -80px;
     }
 }
 
