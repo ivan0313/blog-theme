@@ -1,0 +1,70 @@
+/*
+Theme Name: Ivan
+Theme URI: https://ivan0313.tk/theme
+Author: Your Name
+Author URI: https://ivan0313.tk
+Description: Theme for Ivan's wordpress blog
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+*/
+
+html {
+    background-color: #01161E;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #AEC3B0;
+}
+
+.menu-main-menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-main-menu-container ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu-main-menu-container li {
+    float: left;
+    margin: 0px 30px;
+    position: relative; 
+}
+
+.menu-main-menu-container a {
+    color: #AEC3B0;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.menu-main-menu-container a:hover {
+    width: 100%; 
+    left: 0; 
+}
+
+.menu-main-menu-container a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #AEC3B0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menu-main-menu-container a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+
+.site-content {
+    margin: 10 0;
+}
