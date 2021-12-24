@@ -7,13 +7,9 @@
  */
 
 get_header(); ?>
-	<body>
-		<div class="site-content">
-			
-		</div><! – .site-content – >
-		
 
-		<?php wp_footer(); ?>
-	</body>
+	<div class="site-content">
+	
+	</div><! – .site-content – >
 
-</html>
+<?php get_footer(); ?>
