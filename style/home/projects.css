@@ -1,0 +1,36 @@
+.projects {
+    margin: 100px 0;
+    width: 100%;
+}
+
+.projects h2 {
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+.projects .content-area-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .content-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #598392;
+    border-radius: 10px;
+    width: 90%;
+    height: 492px;
+}
+
+.projects article {
+    width: 250px;
+    margin: 0 25px;
+}
+
+.projects article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
